@@ -11,7 +11,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace ArkEcosystem\Tests\Crypto\Concerns;
+namespace Lostlink\Ark\Tests\Crypto\Concerns;
 
 use Lostlink\Ark\Crypto\Transactions\Serializer;
 use Lostlink\Ark\Crypto\Transactions\Types\DelegateRegistration;

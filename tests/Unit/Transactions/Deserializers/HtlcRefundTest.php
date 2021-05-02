@@ -11,7 +11,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace ArkEcosystem\Tests\Crypto\Unit\Transactions\Deserializers;
+namespace Lostlink\Ark\Tests\Crypto\Unit\Transactions\Deserializers;
 
 use Lostlink\Ark\Crypto\Transactions\Types\HtlcRefund;
 use ArkEcosystem\Tests\Crypto\TestCase;

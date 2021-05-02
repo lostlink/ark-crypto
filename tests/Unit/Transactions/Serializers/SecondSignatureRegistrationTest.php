@@ -11,10 +11,10 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace ArkEcosystem\Tests\Crypto\Unit\Transactions\Serializers;
+namespace Lostlink\Ark\Tests\Crypto\Unit\Transactions\Serializers;
 
 use Lostlink\Ark\Crypto\Transactions\Serializer;
-use ArkEcosystem\Tests\Crypto\TestCase;
+use Lostlink\Ark\Tests\Crypto\TestCase;
 
 /**
  * This is the second signature registration serializer test class.

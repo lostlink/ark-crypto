@@ -11,9 +11,9 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace ArkEcosystem\Tests\Crypto\Unit\Transactions\Serializers;
+namespace Lostlink\Ark\Tests\Crypto\Unit\Transactions\Serializers;
 
-use ArkEcosystem\Tests\Crypto\TestCase;
+use Lostlink\Ark\Tests\Crypto\TestCase;
 
 /**
  * @covers \Lostlink\Ark\Crypto\Transactions\Types\HtlcLock

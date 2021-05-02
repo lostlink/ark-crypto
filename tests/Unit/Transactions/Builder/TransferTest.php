@@ -11,7 +11,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace ArkEcosystem\Tests\Crypto\Unit\Transactions\Builder;
+namespace Lostlink\Ark\Tests\Crypto\Unit\Transactions\Builder;
 
 use Lostlink\Ark\Crypto\Identities\PublicKey;
 use Lostlink\Ark\Crypto\Transactions\Builder\TransferBuilder;

@@ -11,9 +11,9 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace ArkEcosystem\Tests\Crypto\Unit\Networks;
+namespace Lostlink\Ark\Tests\Crypto\Unit\Networks;
 
-use ArkEcosystem\Tests\Crypto\TestCase;
+use Lostlink\Ark\Tests\Crypto\TestCase;
 
 /**
  * This is the devnet network test class.

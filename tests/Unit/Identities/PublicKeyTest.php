@@ -11,7 +11,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace ArkEcosystem\Tests\Crypto\Unit\Identities;
+namespace Lostlink\Ark\Tests\Crypto\Unit\Identities;
 
 use Lostlink\Ark\Crypto\Identities\PublicKey as TestClass;
 use ArkEcosystem\Tests\Crypto\TestCase;

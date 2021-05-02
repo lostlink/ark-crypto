@@ -11,10 +11,10 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace ArkEcosystem\Tests\Crypto\Unit\Utils;
+namespace Lostlink\Ark\Tests\Crypto\Unit\Utils;
 
 use Lostlink\Ark\Crypto\Utils\Message;
-use ArkEcosystem\Tests\Crypto\TestCase;
+use Lostlink\Ark\Tests\Crypto\TestCase;
 
 /**
  * This is the message test class.

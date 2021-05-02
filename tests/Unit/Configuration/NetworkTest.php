@@ -11,7 +11,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace ArkEcosystem\Tests\Crypto\Unit\Managers;
+namespace Lostlink\Ark\Tests\Crypto\Unit\Managers;
 
 use Lostlink\Ark\Crypto\Configuration\Network;
 use Lostlink\Ark\Crypto\Networks\AbstractNetwork;

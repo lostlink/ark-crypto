@@ -11,7 +11,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace ArkEcosystem\Tests\Crypto\Unit\Networks;
+namespace Lostlink\Ark\Tests\Crypto\Unit\Networks;
 
 use Lostlink\Ark\Crypto\Networks\Mainnet;
 use BitWasp\Bitcoin\Network\Network;
