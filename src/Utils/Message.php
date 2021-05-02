@@ -11,9 +11,9 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace ArkEcosystem\Crypto\Utils;
+namespace Lostlink\Ark\Crypto\Utils;
 
-use ArkEcosystem\Crypto\Identities\PrivateKey;
+use Lostlink\Ark\Crypto\Identities\PrivateKey;
 use BitWasp\Bitcoin\Crypto\Hash;
 use BitWasp\Bitcoin\Key\Factory\PublicKeyFactory;
 use BitWasp\Bitcoin\Signature\SignatureFactory;
@@ -84,7 +84,7 @@ class Message
      *
      * @param mixed $message
      *
-     * @return \ArkEcosystem\Crypto\Utils\Message
+     * @return \Lostlink\Ark\Crypto\Utils\Message
      */
     public static function new($message): self
     {
@@ -109,7 +109,7 @@ class Message
      * @param string $message
      * @param string $passphrase
      *
-     * @return \ArkEcosystem\Crypto\Utils\Message
+     * @return \Lostlink\Ark\Crypto\Utils\Message
      */
     public static function sign(string $message, string $passphrase): self
     {

@@ -13,18 +13,18 @@ declare(strict_types=1);
 
 namespace ArkEcosystem\Tests\Crypto\Concerns;
 
-use ArkEcosystem\Crypto\Transactions\Serializer;
-use ArkEcosystem\Crypto\Transactions\Types\DelegateRegistration;
-use ArkEcosystem\Crypto\Transactions\Types\DelegateResignation;
-use ArkEcosystem\Crypto\Transactions\Types\HtlcClaim;
-use ArkEcosystem\Crypto\Transactions\Types\HtlcLock;
-use ArkEcosystem\Crypto\Transactions\Types\HtlcRefund;
-use ArkEcosystem\Crypto\Transactions\Types\IPFS;
-use ArkEcosystem\Crypto\Transactions\Types\MultiPayment;
-use ArkEcosystem\Crypto\Transactions\Types\MultiSignatureRegistration;
-use ArkEcosystem\Crypto\Transactions\Types\SecondSignatureRegistration;
-use ArkEcosystem\Crypto\Transactions\Types\Transfer;
-use ArkEcosystem\Crypto\Transactions\Types\Vote;
+use Lostlink\Ark\Crypto\Transactions\Serializer;
+use Lostlink\Ark\Crypto\Transactions\Types\DelegateRegistration;
+use Lostlink\Ark\Crypto\Transactions\Types\DelegateResignation;
+use Lostlink\Ark\Crypto\Transactions\Types\HtlcClaim;
+use Lostlink\Ark\Crypto\Transactions\Types\HtlcLock;
+use Lostlink\Ark\Crypto\Transactions\Types\HtlcRefund;
+use Lostlink\Ark\Crypto\Transactions\Types\IPFS;
+use Lostlink\Ark\Crypto\Transactions\Types\MultiPayment;
+use Lostlink\Ark\Crypto\Transactions\Types\MultiSignatureRegistration;
+use Lostlink\Ark\Crypto\Transactions\Types\SecondSignatureRegistration;
+use Lostlink\Ark\Crypto\Transactions\Types\Transfer;
+use Lostlink\Ark\Crypto\Transactions\Types\Vote;
 
 trait Serialize
 {

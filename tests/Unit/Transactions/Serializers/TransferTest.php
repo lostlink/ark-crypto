@@ -13,15 +13,15 @@ declare(strict_types=1);
 
 namespace ArkEcosystem\Tests\Crypto\Unit\Transactions\Serializers;
 
-use ArkEcosystem\Crypto\Transactions\Serializer;
-use ArkEcosystem\Crypto\Transactions\Types\Transfer;
+use Lostlink\Ark\Crypto\Transactions\Serializer;
+use Lostlink\Ark\Crypto\Transactions\Types\Transfer;
 use ArkEcosystem\Tests\Crypto\TestCase;
 
 /**
  * This is the transfer serializer test class.
  *
  * @author Brian Faust <brian@ark.io>
- * @covers \ArkEcosystem\Crypto\Transactions\Types\Transfer
+ * @covers \Lostlink\Ark\Crypto\Transactions\Types\Transfer
  */
 class TransferTest extends TestCase
 {

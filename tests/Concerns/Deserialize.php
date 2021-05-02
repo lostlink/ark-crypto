@@ -13,8 +13,8 @@ declare(strict_types=1);
 
 namespace ArkEcosystem\Tests\Crypto\Concerns;
 
-use ArkEcosystem\Crypto\Transactions\Deserializer;
-use ArkEcosystem\Crypto\Transactions\Serializer;
+use Lostlink\Ark\Crypto\Transactions\Deserializer;
+use Lostlink\Ark\Crypto\Transactions\Serializer;
 use Illuminate\Support\Arr;
 
 trait Deserialize

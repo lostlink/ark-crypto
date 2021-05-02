@@ -13,13 +13,13 @@ declare(strict_types=1);
 
 namespace ArkEcosystem\Tests\Crypto\Unit\Networks;
 
-use ArkEcosystem\Crypto\Networks\Devnet;
+use Lostlink\Ark\Crypto\Networks\Devnet;
 
 /**
  * This is the devnet network test class.
  *
  * @author Brian Faust <brian@ark.io>
- * @covers \ArkEcosystem\Crypto\Networks\Devnet
+ * @covers \Lostlink\Ark\Crypto\Networks\Devnet
  */
 class DevnetTest extends NetworkTestCase
 {

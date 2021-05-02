@@ -11,9 +11,9 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace ArkEcosystem\Crypto\Transactions;
+namespace Lostlink\Ark\Crypto\Transactions;
 
-use ArkEcosystem\Crypto\Transactions\Types\Transaction;
+use Lostlink\Ark\Crypto\Transactions\Types\Transaction;
 use BitWasp\Bitcoin\Crypto\Hash;
 use Konceiver\ByteBuffer\ByteBuffer;
 

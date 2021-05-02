@@ -11,10 +11,10 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace ArkEcosystem\Crypto\Configuration;
+namespace Lostlink\Ark\Crypto\Configuration;
 
-use ArkEcosystem\Crypto\Networks\AbstractNetwork;
-use ArkEcosystem\Crypto\Networks\Devnet;
+use Lostlink\Ark\Crypto\Networks\AbstractNetwork;
+use Lostlink\Ark\Crypto\Networks\Devnet;
 use BitWasp\Bitcoin\Bitcoin;
 
 /**
@@ -27,7 +27,7 @@ class Network
     /**
      * The network used for crypto operations.
      *
-     * @var \ArkEcosystem\Crypto\Networks\AbstractNetwork
+     * @var \Lostlink\Ark\Crypto\Networks\AbstractNetwork
      */
     private static $network;
 
@@ -47,7 +47,7 @@ class Network
     /**
      * Get the network used for crypto operations.
      *
-     * @return \ArkEcosystem\Crypto\Networks\AbstractNetwork
+     * @return \Lostlink\Ark\Crypto\Networks\AbstractNetwork
      */
     public static function get(): AbstractNetwork
     {
@@ -57,7 +57,7 @@ class Network
     /**
      * Set the network used for crypto operations.
      *
-     * @param \ArkEcosystem\Crypto\Networks\AbstractNetwork $network
+     * @param \Lostlink\Ark\Crypto\Networks\AbstractNetwork $network
      */
     public static function set(AbstractNetwork $network): void
     {

@@ -13,16 +13,16 @@ declare(strict_types=1);
 
 namespace ArkEcosystem\Tests\Crypto\Unit\Transactions\Builder;
 
-use ArkEcosystem\Crypto\Identities\PublicKey;
-use ArkEcosystem\Crypto\Transactions\Builder\SecondSignatureRegistrationBuilder;
-use ArkEcosystem\Crypto\Transactions\Serializer;
+use Lostlink\Ark\Crypto\Identities\PublicKey;
+use Lostlink\Ark\Crypto\Transactions\Builder\SecondSignatureRegistrationBuilder;
+use Lostlink\Ark\Crypto\Transactions\Serializer;
 use ArkEcosystem\Tests\Crypto\TestCase;
 
 /**
  * This is the second signature registration builder test class.
  *
  * @author Brian Faust <brian@ark.io>
- * @covers \ArkEcosystem\Crypto\Transactions\Builder\SecondSignatureRegistrationBuilder
+ * @covers \Lostlink\Ark\Crypto\Transactions\Builder\SecondSignatureRegistrationBuilder
  */
 class SecondSignatureRegistrationTest extends TestCase
 {

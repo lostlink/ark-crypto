@@ -54,9 +54,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Fixed
 
-- Properly handle `asset` if empty in `ArkEcosystem\Crypto\Transactions\Transaction`.
-- Properly handle `version` and `network` if not set on `ArkEcosystem\Crypto\Transactions\Transaction`.
-- Added missing `ArkEcosystem\Crypto\Networks\Devnet` use to `ArkEcosystem\Crypto\Configuration\Network`
+- Properly handle `asset` if empty in `Lostlink\Ark\Crypto\Transactions\Transaction`.
+- Properly handle `version` and `network` if not set on `Lostlink\Ark\Crypto\Transactions\Transaction`.
+- Added missing `Lostlink\Ark\Crypto\Networks\Devnet` use to `Lostlink\Ark\Crypto\Configuration\Network`
 
 ## 0.2.0 - 2018-07-18
 

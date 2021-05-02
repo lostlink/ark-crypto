@@ -11,9 +11,9 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace ArkEcosystem\Crypto\Identities;
+namespace Lostlink\Ark\Crypto\Identities;
 
-use ArkEcosystem\Crypto\Networks\AbstractNetwork;
+use Lostlink\Ark\Crypto\Networks\AbstractNetwork;
 use BitWasp\Bitcoin\Bitcoin;
 use BitWasp\Bitcoin\Crypto\EcAdapter\EcAdapterFactory;
 use BitWasp\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Key\PrivateKey as EcPrivateKey;
@@ -68,7 +68,7 @@ class PrivateKey
      * Derive the private key for the given WIF.
      *
      * @param string                                             $wif
-     * @param \ArkEcosystem\Crypto\Networks\AbstractNetwork|null $network
+     * @param \Lostlink\Ark\Crypto\Networks\AbstractNetwork|null $network
      *
      * @return \BitWasp\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Key\PrivateKey
      */

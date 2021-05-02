@@ -13,11 +13,11 @@ declare(strict_types=1);
 
 namespace ArkEcosystem\Tests\Crypto\Unit\Transactions\Deserializers;
 
-use ArkEcosystem\Crypto\Transactions\Types\IPFS;
+use Lostlink\Ark\Crypto\Transactions\Types\IPFS;
 use ArkEcosystem\Tests\Crypto\TestCase;
 
 /**
- * @covers \ArkEcosystem\Crypto\Transactions\Types\IPFS
+ * @covers \Lostlink\Ark\Crypto\Transactions\Types\IPFS
  */
 class IPFSTest extends TestCase
 {

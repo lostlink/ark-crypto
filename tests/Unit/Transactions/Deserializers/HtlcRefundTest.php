@@ -13,11 +13,11 @@ declare(strict_types=1);
 
 namespace ArkEcosystem\Tests\Crypto\Unit\Transactions\Deserializers;
 
-use ArkEcosystem\Crypto\Transactions\Types\HtlcRefund;
+use Lostlink\Ark\Crypto\Transactions\Types\HtlcRefund;
 use ArkEcosystem\Tests\Crypto\TestCase;
 
 /**
- * @covers \ArkEcosystem\Crypto\Transactions\Types\HtlcRefund
+ * @covers \Lostlink\Ark\Crypto\Transactions\Types\HtlcRefund
  */
 class HtlcRefundTest extends TestCase
 {

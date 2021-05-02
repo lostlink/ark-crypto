@@ -11,11 +11,11 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace ArkEcosystem\Crypto\Identities;
+namespace Lostlink\Ark\Crypto\Identities;
 
-use ArkEcosystem\Crypto\Configuration\Network as NetworkConfiguration;
-use ArkEcosystem\Crypto\Helpers;
-use ArkEcosystem\Crypto\Networks\AbstractNetwork;
+use Lostlink\Ark\Crypto\Configuration\Network as NetworkConfiguration;
+use Lostlink\Ark\Crypto\Helpers;
+use Lostlink\Ark\Crypto\Networks\AbstractNetwork;
 use BitWasp\Bitcoin\Address\AddressCreator;
 use BitWasp\Bitcoin\Address\PayToPubKeyHashAddress;
 use BitWasp\Bitcoin\Base58;

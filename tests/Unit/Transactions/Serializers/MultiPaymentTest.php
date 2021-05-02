@@ -13,14 +13,14 @@ declare(strict_types=1);
 
 namespace ArkEcosystem\Tests\Crypto\Unit\Transactions\Serializers;
 
-use ArkEcosystem\Crypto\Transactions\Serializer;
+use Lostlink\Ark\Crypto\Transactions\Serializer;
 use ArkEcosystem\Tests\Crypto\TestCase;
 
 /**
  * This is the multi payment serializer test class.
  *
  * @author Brian Faust <brian@ark.io>
- * @covers \ArkEcosystem\Crypto\Transactions\Types\MultiPayment
+ * @covers \Lostlink\Ark\Crypto\Transactions\Types\MultiPayment
  */
 class MultiPaymentTest extends TestCase
 {

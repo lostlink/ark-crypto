@@ -13,16 +13,16 @@ declare(strict_types=1);
 
 namespace ArkEcosystem\Tests\Crypto\Unit\Transactions\Builder;
 
-use ArkEcosystem\Crypto\Identities\PublicKey;
-use ArkEcosystem\Crypto\Transactions\Builder\VoteBuilder;
-use ArkEcosystem\Crypto\Transactions\Serializer;
+use Lostlink\Ark\Crypto\Identities\PublicKey;
+use Lostlink\Ark\Crypto\Transactions\Builder\VoteBuilder;
+use Lostlink\Ark\Crypto\Transactions\Serializer;
 use ArkEcosystem\Tests\Crypto\TestCase;
 
 /**
  * This is the vote builder test class.
  *
  * @author Brian Faust <brian@ark.io>
- * @covers \ArkEcosystem\Crypto\Transactions\Builder\VoteBuilder
+ * @covers \Lostlink\Ark\Crypto\Transactions\Builder\VoteBuilder
  */
 class VoteTest extends TestCase
 {

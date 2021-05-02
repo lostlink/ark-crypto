@@ -11,10 +11,10 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace ArkEcosystem\Crypto\Transactions\Types;
+namespace Lostlink\Ark\Crypto\Transactions\Types;
 
-use ArkEcosystem\Crypto\Configuration\Network;
-use ArkEcosystem\Crypto\Transactions\Serializer;
+use Lostlink\Ark\Crypto\Configuration\Network;
+use Lostlink\Ark\Crypto\Transactions\Serializer;
 use BitWasp\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Key\PrivateKey;
 use BitWasp\Bitcoin\Crypto\Hash;
 use BitWasp\Bitcoin\Key\Factory\PublicKeyFactory;

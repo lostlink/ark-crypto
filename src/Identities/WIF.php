@@ -11,9 +11,9 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace ArkEcosystem\Crypto\Identities;
+namespace Lostlink\Ark\Crypto\Identities;
 
-use ArkEcosystem\Crypto\Networks\AbstractNetwork;
+use Lostlink\Ark\Crypto\Networks\AbstractNetwork;
 
 /**
  * This is the wif class.
@@ -26,7 +26,7 @@ class WIF
      * Derive the WIF from the given passphrase.
      *
      * @param string                                             $passphrase
-     * @param \ArkEcosystem\Crypto\Networks\AbstractNetwork|null $network
+     * @param \Lostlink\Ark\Crypto\Networks\AbstractNetwork|null $network
      *
      * @return string
      */

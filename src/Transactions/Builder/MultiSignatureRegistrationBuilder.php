@@ -11,10 +11,10 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace ArkEcosystem\Crypto\Transactions\Builder;
+namespace Lostlink\Ark\Crypto\Transactions\Builder;
 
-use ArkEcosystem\Crypto\Transactions\Types\MultiSignatureRegistration;
-use ArkEcosystem\Crypto\Utils\Slot;
+use Lostlink\Ark\Crypto\Transactions\Types\MultiSignatureRegistration;
+use Lostlink\Ark\Crypto\Utils\Slot;
 
 /**
  * This is the multisignature registration transaction class.
@@ -84,7 +84,7 @@ class MultiSignatureRegistrationBuilder extends AbstractTransactionBuilder
      */
     protected function getType(): int
     {
-        return \ArkEcosystem\Crypto\Enums\Types::MULTI_SIGNATURE_REGISTRATION;
+        return \Lostlink\Ark\Crypto\Enums\Types::MULTI_SIGNATURE_REGISTRATION;
     }
 
     /**
@@ -92,7 +92,7 @@ class MultiSignatureRegistrationBuilder extends AbstractTransactionBuilder
      */
     protected function getTypeGroup(): int
     {
-        return \ArkEcosystem\Crypto\Enums\TypeGroup::CORE;
+        return \Lostlink\Ark\Crypto\Enums\TypeGroup::CORE;
     }
 
     protected function getTransactionInstance(): object

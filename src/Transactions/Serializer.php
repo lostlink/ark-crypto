@@ -11,11 +11,11 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace ArkEcosystem\Crypto\Transactions;
+namespace Lostlink\Ark\Crypto\Transactions;
 
-use ArkEcosystem\Crypto\Configuration\Network;
-use ArkEcosystem\Crypto\Enums\TypeGroup;
-use ArkEcosystem\Crypto\Transactions\Types\Transaction;
+use Lostlink\Ark\Crypto\Configuration\Network;
+use Lostlink\Ark\Crypto\Enums\TypeGroup;
+use Lostlink\Ark\Crypto\Transactions\Types\Transaction;
 use BitWasp\Buffertools\Buffer;
 use Konceiver\ByteBuffer\ByteBuffer;
 
@@ -29,7 +29,7 @@ class Serializer
     /**
      * Create a new serializer instance.
      *
-     * @param \ArkEcosystem\Crypto\Transactions\Types\Transaction $transaction
+     * @param \Lostlink\Ark\Crypto\Transactions\Types\Transaction $transaction
      */
     private function __construct($transaction)
     {
@@ -39,7 +39,7 @@ class Serializer
     /**
      * Create a new deserializer instance.
      *
-     * @param \ArkEcosystem\Crypto\Transactions\Types\Transaction $transaction
+     * @param \Lostlink\Ark\Crypto\Transactions\Types\Transaction $transaction
      */
     public static function new($transaction)
     {

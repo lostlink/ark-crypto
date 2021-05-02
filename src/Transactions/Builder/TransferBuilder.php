@@ -11,9 +11,9 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace ArkEcosystem\Crypto\Transactions\Builder;
+namespace Lostlink\Ark\Crypto\Transactions\Builder;
 
-use ArkEcosystem\Crypto\Transactions\Types\Transfer;
+use Lostlink\Ark\Crypto\Transactions\Types\Transfer;
 
 /**
  * This is the transfer transaction class.
@@ -76,12 +76,12 @@ class TransferBuilder extends AbstractTransactionBuilder
      */
     protected function getType(): int
     {
-        return \ArkEcosystem\Crypto\Enums\Types::TRANSFER;
+        return \Lostlink\Ark\Crypto\Enums\Types::TRANSFER;
     }
 
     protected function getTypeGroup(): int
     {
-        return \ArkEcosystem\Crypto\Enums\TypeGroup::CORE;
+        return \Lostlink\Ark\Crypto\Enums\TypeGroup::CORE;
     }
 
     protected function getTransactionInstance(): object

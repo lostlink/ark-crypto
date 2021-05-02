@@ -11,9 +11,9 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace ArkEcosystem\Crypto\Utils;
+namespace Lostlink\Ark\Crypto\Utils;
 
-use ArkEcosystem\Crypto\Configuration\Network;
+use Lostlink\Ark\Crypto\Configuration\Network;
 
 /**
  * This is the slot class.

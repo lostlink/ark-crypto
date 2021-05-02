@@ -11,10 +11,10 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace ArkEcosystem\Crypto\Transactions\Builder;
+namespace Lostlink\Ark\Crypto\Transactions\Builder;
 
-use ArkEcosystem\Crypto\Identities\PublicKey;
-use ArkEcosystem\Crypto\Transactions\Types\DelegateRegistration;
+use Lostlink\Ark\Crypto\Identities\PublicKey;
+use Lostlink\Ark\Crypto\Transactions\Types\DelegateRegistration;
 
 /**
  * This is the delegate registration transaction class.
@@ -68,12 +68,12 @@ class DelegateRegistrationBuilder extends AbstractTransactionBuilder
      */
     protected function getType(): int
     {
-        return \ArkEcosystem\Crypto\Enums\Types::DELEGATE_REGISTRATION;
+        return \Lostlink\Ark\Crypto\Enums\Types::DELEGATE_REGISTRATION;
     }
 
     protected function getTypeGroup(): int
     {
-        return \ArkEcosystem\Crypto\Enums\TypeGroup::CORE;
+        return \Lostlink\Ark\Crypto\Enums\TypeGroup::CORE;
     }
 
     protected function getTransactionInstance(): object

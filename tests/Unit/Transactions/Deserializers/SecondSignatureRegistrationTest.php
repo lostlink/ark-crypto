@@ -13,15 +13,15 @@ declare(strict_types=1);
 
 namespace ArkEcosystem\Tests\Crypto\Unit\Transactions\Deserializers;
 
-use ArkEcosystem\Crypto\Transactions\Deserializer;
-use ArkEcosystem\Crypto\Transactions\Types\SecondSignatureRegistration;
+use Lostlink\Ark\Crypto\Transactions\Deserializer;
+use Lostlink\Ark\Crypto\Transactions\Types\SecondSignatureRegistration;
 use ArkEcosystem\Tests\Crypto\TestCase;
 
 /**
  * This is the second signature registration deserializer test class.
  *
  * @author Brian Faust <brian@ark.io>
- * @covers \ArkEcosystem\Crypto\Transactions\Types\SecondSignatureRegistration
+ * @covers \Lostlink\Ark\Crypto\Transactions\Types\SecondSignatureRegistration
  */
 class SecondSignatureRegistrationTest extends TestCase
 {

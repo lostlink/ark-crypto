@@ -13,11 +13,11 @@ declare(strict_types=1);
 
 namespace ArkEcosystem\Tests\Crypto\Unit\Transactions\Deserializers;
 
-use ArkEcosystem\Crypto\Transactions\Types\HtlcLock;
+use Lostlink\Ark\Crypto\Transactions\Types\HtlcLock;
 use ArkEcosystem\Tests\Crypto\TestCase;
 
 /**
- * @covers \ArkEcosystem\Crypto\Transactions\Types\HtlcLock
+ * @covers \Lostlink\Ark\Crypto\Transactions\Types\HtlcLock
  */
 class HtlcLockTest extends TestCase
 {

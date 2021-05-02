@@ -11,7 +11,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace ArkEcosystem\Crypto\Transactions\Types;
+namespace Lostlink\Ark\Crypto\Transactions\Types;
 
 use BitWasp\Bitcoin\Base58;
 use BitWasp\Buffertools\Buffer;

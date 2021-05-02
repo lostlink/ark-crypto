@@ -11,7 +11,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace ArkEcosystem\Crypto\Networks;
+namespace Lostlink\Ark\Crypto\Networks;
 
 use BitWasp\Bitcoin\Network\Network;
 use BitWasp\Bitcoin\Script\ScriptType;

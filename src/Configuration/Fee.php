@@ -11,10 +11,10 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace ArkEcosystem\Crypto\Configuration;
+namespace Lostlink\Ark\Crypto\Configuration;
 
-use ArkEcosystem\Crypto\Enums\Fees;
-use ArkEcosystem\Crypto\Enums\Types;
+use Lostlink\Ark\Crypto\Enums\Fees;
+use Lostlink\Ark\Crypto\Enums\Types;
 
 /**
  * This is the fee configuration class.

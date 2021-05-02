@@ -1,5 +1,5 @@
 {
-    "name": "arkecosystem/crypto",
+    "name": "lostlink/ark-crypto",
     "description": "A simple PHP Cryptography Implementation for the Ark Blockchain.",
     "keywords": [
         "api",
@@ -35,12 +35,12 @@
     },
     "autoload": {
         "psr-4": {
-            "ArkEcosystem\\Crypto\\": "src"
+            "Lostlink\\Ark\\Crypto\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ArkEcosystem\\Tests\\Crypto\\": "tests"
+            "Lostlink\\Ark\\Tests\\Crypto\\": "tests"
         }
     },
     "config": {

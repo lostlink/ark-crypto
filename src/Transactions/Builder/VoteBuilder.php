@@ -11,11 +11,11 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace ArkEcosystem\Crypto\Transactions\Builder;
+namespace Lostlink\Ark\Crypto\Transactions\Builder;
 
-use ArkEcosystem\Crypto\Configuration\Network;
-use ArkEcosystem\Crypto\Identities\Address;
-use ArkEcosystem\Crypto\Transactions\Types\Vote;
+use Lostlink\Ark\Crypto\Configuration\Network;
+use Lostlink\Ark\Crypto\Identities\Address;
+use Lostlink\Ark\Crypto\Transactions\Types\Vote;
 
 /**
  * This is the vote transaction class.
@@ -69,12 +69,12 @@ class VoteBuilder extends AbstractTransactionBuilder
      */
     protected function getType(): int
     {
-        return \ArkEcosystem\Crypto\Enums\Types::VOTE;
+        return \Lostlink\Ark\Crypto\Enums\Types::VOTE;
     }
 
     protected function getTypeGroup(): int
     {
-        return \ArkEcosystem\Crypto\Enums\TypeGroup::CORE;
+        return \Lostlink\Ark\Crypto\Enums\TypeGroup::CORE;
     }
 
     protected function getTransactionInstance(): object

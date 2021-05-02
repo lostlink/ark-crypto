@@ -13,14 +13,14 @@ declare(strict_types=1);
 
 namespace ArkEcosystem\Tests\Crypto\Unit\Managers;
 
-use ArkEcosystem\Crypto\Configuration\Fee;
+use Lostlink\Ark\Crypto\Configuration\Fee;
 use ArkEcosystem\Tests\Crypto\TestCase;
 
 /**
  * This is the fee configuration test class.
  *
  * @author Brian Faust <brian@ark.io>
- * @covers \ArkEcosystem\Crypto\Configuration\Fee
+ * @covers \Lostlink\Ark\Crypto\Configuration\Fee
  */
 class FeeTest extends TestCase
 {

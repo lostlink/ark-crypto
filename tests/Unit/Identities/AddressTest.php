@@ -13,17 +13,17 @@ declare(strict_types=1);
 
 namespace ArkEcosystem\Tests\Crypto\Unit\Identities;
 
-use ArkEcosystem\Crypto\Configuration\Network;
-use ArkEcosystem\Crypto\Identities\Address as TestClass;
-use ArkEcosystem\Crypto\Identities\PrivateKey;
-use ArkEcosystem\Crypto\Networks\Devnet;
+use Lostlink\Ark\Crypto\Configuration\Network;
+use Lostlink\Ark\Crypto\Identities\Address as TestClass;
+use Lostlink\Ark\Crypto\Identities\PrivateKey;
+use Lostlink\Ark\Crypto\Networks\Devnet;
 use ArkEcosystem\Tests\Crypto\TestCase;
 
 /**
  * This is the address test class.
  *
  * @author Brian Faust <brian@ark.io>
- * @covers \ArkEcosystem\Crypto\Identities\Address
+ * @covers \Lostlink\Ark\Crypto\Identities\Address
  */
 class AddressTest extends TestCase
 {

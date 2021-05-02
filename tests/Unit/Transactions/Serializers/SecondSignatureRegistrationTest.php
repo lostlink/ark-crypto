@@ -13,14 +13,14 @@ declare(strict_types=1);
 
 namespace ArkEcosystem\Tests\Crypto\Unit\Transactions\Serializers;
 
-use ArkEcosystem\Crypto\Transactions\Serializer;
+use Lostlink\Ark\Crypto\Transactions\Serializer;
 use ArkEcosystem\Tests\Crypto\TestCase;
 
 /**
  * This is the second signature registration serializer test class.
  *
  * @author Brian Faust <brian@ark.io>
- * @covers \ArkEcosystem\Crypto\Transactions\Types\SecondSignatureRegistration
+ * @covers \Lostlink\Ark\Crypto\Transactions\Types\SecondSignatureRegistration
  */
 class SecondSignatureRegistrationTest extends TestCase
 {

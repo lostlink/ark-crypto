@@ -11,7 +11,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace ArkEcosystem\Crypto\Enums;
+namespace Lostlink\Ark\Crypto\Enums;
 
 /**
  * This is the transaction types class.

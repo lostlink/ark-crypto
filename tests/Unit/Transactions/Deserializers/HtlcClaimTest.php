@@ -13,11 +13,11 @@ declare(strict_types=1);
 
 namespace ArkEcosystem\Tests\Crypto\Unit\Transactions\Deserializers;
 
-use ArkEcosystem\Crypto\Transactions\Types\HtlcClaim;
+use Lostlink\Ark\Crypto\Transactions\Types\HtlcClaim;
 use ArkEcosystem\Tests\Crypto\TestCase;
 
 /**
- * @covers \ArkEcosystem\Crypto\Transactions\Types\HtlcClaim
+ * @covers \Lostlink\Ark\Crypto\Transactions\Types\HtlcClaim
  */
 class HtlcClaimTest extends TestCase
 {

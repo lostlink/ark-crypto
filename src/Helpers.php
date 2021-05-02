@@ -11,9 +11,9 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace ArkEcosystem\Crypto;
+namespace Lostlink\Ark\Crypto;
 
-use ArkEcosystem\Crypto\Configuration\Network;
+use Lostlink\Ark\Crypto\Configuration\Network;
 
 /**
  * This is the helpers class.
@@ -25,7 +25,7 @@ class Helpers
     /**
      * Get the network version.
      *
-     * @param \ArkEcosystem\Crypto\Networks\AbstractNetwork|int $network
+     * @param \Lostlink\Ark\Crypto\Networks\AbstractNetwork|int $network
      *
      * @return int
      */

@@ -13,15 +13,15 @@ declare(strict_types=1);
 
 namespace ArkEcosystem\Tests\Crypto\Unit\Transactions\Serializers;
 
-use ArkEcosystem\Crypto\Transactions\Serializer;
-use ArkEcosystem\Crypto\Transactions\Types\Vote;
+use Lostlink\Ark\Crypto\Transactions\Serializer;
+use Lostlink\Ark\Crypto\Transactions\Types\Vote;
 use ArkEcosystem\Tests\Crypto\TestCase;
 
 /**
  * This is the vote serializer test class.
  *
  * @author Brian Faust <brian@ark.io>
- * @covers \ArkEcosystem\Crypto\Transactions\Types\Vote
+ * @covers \Lostlink\Ark\Crypto\Transactions\Types\Vote
  */
 class VoteTest extends TestCase
 {

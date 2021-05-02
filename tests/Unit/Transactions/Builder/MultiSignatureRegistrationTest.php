@@ -13,15 +13,15 @@ declare(strict_types=1);
 
 namespace ArkEcosystem\Tests\Crypto\Unit\Transactions\Builder;
 
-use ArkEcosystem\Crypto\Identities\PublicKey;
-use ArkEcosystem\Crypto\Transactions\Builder\MultiSignatureRegistrationBuilder;
+use Lostlink\Ark\Crypto\Identities\PublicKey;
+use Lostlink\Ark\Crypto\Transactions\Builder\MultiSignatureRegistrationBuilder;
 use ArkEcosystem\Tests\Crypto\TestCase;
 
 /**
  * This is the multi signature registration builder test class.
  *
  * @author Brian Faust <brian@ark.io>
- * @covers \ArkEcosystem\Crypto\Transactions\Builder\MultiSignatureRegistrationBuilder
+ * @covers \Lostlink\Ark\Crypto\Transactions\Builder\MultiSignatureRegistrationBuilder
  */
 class MultiSignatureRegistrationTest extends TestCase
 {

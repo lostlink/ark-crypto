@@ -16,7 +16,7 @@ namespace ArkEcosystem\Tests\Crypto\Unit\Transactions\Serializers;
 use ArkEcosystem\Tests\Crypto\TestCase;
 
 /**
- * @covers \ArkEcosystem\Crypto\Transactions\Types\HtlcRefund
+ * @covers \Lostlink\Ark\Crypto\Transactions\Types\HtlcRefund
  */
 class HtlcRefundTest extends TestCase
 {

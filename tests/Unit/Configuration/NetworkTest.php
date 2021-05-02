@@ -13,17 +13,17 @@ declare(strict_types=1);
 
 namespace ArkEcosystem\Tests\Crypto\Unit\Managers;
 
-use ArkEcosystem\Crypto\Configuration\Network;
-use ArkEcosystem\Crypto\Networks\AbstractNetwork;
-use ArkEcosystem\Crypto\Networks\Devnet;
-use ArkEcosystem\Crypto\Networks\Mainnet;
+use Lostlink\Ark\Crypto\Configuration\Network;
+use Lostlink\Ark\Crypto\Networks\AbstractNetwork;
+use Lostlink\Ark\Crypto\Networks\Devnet;
+use Lostlink\Ark\Crypto\Networks\Mainnet;
 use ArkEcosystem\Tests\Crypto\TestCase;
 
 /**
  * This is the network configuration test class.
  *
  * @author Brian Faust <brian@ark.io>
- * @covers \ArkEcosystem\Crypto\Configuration\Network
+ * @covers \Lostlink\Ark\Crypto\Configuration\Network
  */
 class NetworkTest extends TestCase
 {

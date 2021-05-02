@@ -13,14 +13,14 @@ declare(strict_types=1);
 
 namespace ArkEcosystem\Tests\Crypto\Unit\Networks;
 
-use ArkEcosystem\Crypto\Networks\Mainnet;
+use Lostlink\Ark\Crypto\Networks\Mainnet;
 use BitWasp\Bitcoin\Network\Network;
 
 /**
  * This is the mainnet network test class.
  *
  * @author Brian Faust <brian@ark.io>
- * @covers \ArkEcosystem\Crypto\Networks\Mainnet
+ * @covers \Lostlink\Ark\Crypto\Networks\Mainnet
  */
 class MainnetTest extends NetworkTestCase
 {

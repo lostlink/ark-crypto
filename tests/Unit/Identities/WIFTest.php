@@ -13,14 +13,14 @@ declare(strict_types=1);
 
 namespace ArkEcosystem\Tests\Crypto\Unit\Identities;
 
-use ArkEcosystem\Crypto\Identities\WIF as TestClass;
+use Lostlink\Ark\Crypto\Identities\WIF as TestClass;
 use ArkEcosystem\Tests\Crypto\TestCase;
 
 /**
  * This is the address test class.
  *
  * @author Brian Faust <brian@ark.io>
- * @covers \ArkEcosystem\Crypto\Identities\WIF
+ * @covers \Lostlink\Ark\Crypto\Identities\WIF
  */
 class WIFTest extends TestCase
 {

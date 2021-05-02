@@ -13,15 +13,15 @@ declare(strict_types=1);
 
 namespace ArkEcosystem\Tests\Crypto\Unit\Transactions\Deserializers;
 
-use ArkEcosystem\Crypto\Transactions\Deserializer;
-use ArkEcosystem\Crypto\Transactions\Types\DelegateResignation;
+use Lostlink\Ark\Crypto\Transactions\Deserializer;
+use Lostlink\Ark\Crypto\Transactions\Types\DelegateResignation;
 use ArkEcosystem\Tests\Crypto\TestCase;
 
 /**
  * This is the delegate resignation deserializer test class.
  *
  * @author Brian Faust <brian@ark.io>
- * @covers \ArkEcosystem\Crypto\Transactions\Types\DelegateResignation
+ * @covers \Lostlink\Ark\Crypto\Transactions\Types\DelegateResignation
  */
 class DelegateResignationTest extends TestCase
 {

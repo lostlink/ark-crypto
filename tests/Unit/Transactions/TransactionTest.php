@@ -13,11 +13,11 @@ declare(strict_types=1);
 
 namespace ArkEcosystem\Tests\Crypto\Unit\Transactions\Serializers;
 
-use ArkEcosystem\Crypto\Identities\PrivateKey;
-use ArkEcosystem\Crypto\Identities\PublicKey;
-use ArkEcosystem\Crypto\Transactions\Deserializer;
-use ArkEcosystem\Crypto\Transactions\Types\Transaction;
-use ArkEcosystem\Crypto\Transactions\Types\Transfer;
+use Lostlink\Ark\Crypto\Identities\PrivateKey;
+use Lostlink\Ark\Crypto\Identities\PublicKey;
+use Lostlink\Ark\Crypto\Transactions\Deserializer;
+use Lostlink\Ark\Crypto\Transactions\Types\Transaction;
+use Lostlink\Ark\Crypto\Transactions\Types\Transfer;
 use ArkEcosystem\Tests\Crypto\TestCase;
 use BitWasp\Buffertools\Buffer;
 
@@ -25,7 +25,7 @@ use BitWasp\Buffertools\Buffer;
  * This is the transaction test class.
  *
  * @author Brian Faust <brian@ark.io>
- * @covers \ArkEcosystem\Crypto\Transactions\Types\Transaction
+ * @covers \Lostlink\Ark\Crypto\Transactions\Types\Transaction
  */
 class TransactionTest extends TestCase
 {

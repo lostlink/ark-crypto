@@ -13,14 +13,14 @@ declare(strict_types=1);
 
 namespace ArkEcosystem\Tests\Crypto\Unit\Utils;
 
-use ArkEcosystem\Crypto\Utils\Message;
+use Lostlink\Ark\Crypto\Utils\Message;
 use ArkEcosystem\Tests\Crypto\TestCase;
 
 /**
  * This is the message test class.
  *
  * @author Brian Faust <brian@ark.io>
- * @covers \ArkEcosystem\Crypto\Utils\Message
+ * @covers \Lostlink\Ark\Crypto\Utils\Message
  */
 class MessageTest extends TestCase
 {

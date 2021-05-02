@@ -11,9 +11,9 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace ArkEcosystem\Crypto\Transactions\Builder;
+namespace Lostlink\Ark\Crypto\Transactions\Builder;
 
-use ArkEcosystem\Crypto\Transactions\Types\IPFS;
+use Lostlink\Ark\Crypto\Transactions\Types\IPFS;
 
 /**
  * This is the ipfs transaction class.
@@ -33,12 +33,12 @@ class IPFSBuilder extends AbstractTransactionBuilder
 
     protected function getType(): int
     {
-        return \ArkEcosystem\Crypto\Enums\Types::IPFS;
+        return \Lostlink\Ark\Crypto\Enums\Types::IPFS;
     }
 
     protected function getTypeGroup(): int
     {
-        return \ArkEcosystem\Crypto\Enums\TypeGroup::CORE;
+        return \Lostlink\Ark\Crypto\Enums\TypeGroup::CORE;
     }
 
     protected function getTransactionInstance(): object

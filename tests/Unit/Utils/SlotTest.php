@@ -13,14 +13,14 @@ declare(strict_types=1);
 
 namespace ArkEcosystem\Tests\Crypto\Unit\Utils;
 
-use ArkEcosystem\Crypto\Utils\Slot;
+use Lostlink\Ark\Crypto\Utils\Slot;
 use ArkEcosystem\Tests\Crypto\TestCase;
 
 /**
  * This is the slot test class.
  *
  * @author Brian Faust <brian@ark.io>
- * @covers \ArkEcosystem\Crypto\Utils\Slot
+ * @covers \Lostlink\Ark\Crypto\Utils\Slot
  */
 class SlotTest extends TestCase
 {
