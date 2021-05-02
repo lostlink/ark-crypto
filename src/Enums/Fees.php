@@ -41,4 +41,6 @@ class Fees
     const HTLC_CLAIM = '0';
 
     const HTLC_REFUND = '0';
+
+    const MINT = '0';
 }

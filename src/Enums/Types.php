@@ -41,4 +41,6 @@ class Types
     const HTLC_CLAIM = 9;
 
     const HTLC_REFUND = 10;
+
+    const MINT = 100;
 }

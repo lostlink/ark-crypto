@@ -25,4 +25,6 @@ class TypeGroup
     const CORE = 1;
 
     const RESERVED = 1000; // Everything above is available to anyone
+
+    const MINT = 1001;
 }
