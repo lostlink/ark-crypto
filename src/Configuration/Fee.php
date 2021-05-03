@@ -40,6 +40,7 @@ class Fee
         Types::HTLC_LOCK                     => Fees::HTLC_LOCK,
         Types::HTLC_CLAIM                    => Fees::HTLC_CLAIM,
         Types::HTLC_REFUND                   => Fees::HTLC_REFUND,
+        Types::MINT                          => Fees::MINT,
     ];
 
     /**

@@ -62,12 +62,12 @@ class MintBuilder extends AbstractTransactionBuilder
      */
     protected function getType(): int
     {
-        return 1001;
+        return \Lostlink\Ark\Crypto\Enums\Types::MINT;
     }
 
     protected function getTypeGroup(): int
     {
-        return 100;
+        return \Lostlink\Ark\Crypto\Enums\TypeGroup::MINT;
     }
 
     protected function getTransactionInstance(): object
